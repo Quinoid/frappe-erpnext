@@ -163,5 +163,5 @@ def insert_record(records):
 
 def welcome_email():
 	site_name = get_default_company() or "ERPNext"
-	title = _("Welcome to {0}").format(site_name)
+	title = _("Welcome to {0} CRM").format(site_name)
 	return title
